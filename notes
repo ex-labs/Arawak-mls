@@ -1,0 +1,6 @@
+Installation configurations with terminal;
+1 - composer update
+2 - php artisan migrate
+3 - php artisan db:seed
+4 - php artisan passport:keys --force (After running this command, two files (oauth-private.key and oauth-public.key files in storage directory) will be created. These files need to be moved to the server.)
+5 - php artisan passport:client --personal (EnterName: RealEstate)
