@@ -20,8 +20,8 @@ class AppSettingsSeeder extends Seeder
         // Admin
         AppSettings::create([
             'id' => 1,
-            'email' => 'publsoftware@gmail.com',
-            'website' => 'http://pulsoft.com',
+            'email' => 'support@arawak.app',
+            'website' => 'http://arawak.app',
             'app_version' => '1.0.0',
             'facebook_url' => 'https://www.facebook.com/',
             'twitter_url' => 'https://www.twitter.com/',
